@@ -1,0 +1,11 @@
+/app/
+/desktop-client/tests/
+/desktop-client/backup-*/
+/desktop-client/vendor/webview2.zip
+/desktop-client/assets/muse-hatch.jpg
+/desktop-client/assets/muse.ico
+/docs/PROJECT_HANDOFF_*.md
+*.user
+*.suo
+*.tmp
+*.log

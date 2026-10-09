@@ -1,0 +1,13 @@
+Muse Desktop Account Manager v1.0.0
+非官方 Windows 本地客户端
+
+1. 双击“启动Muse.cmd”，或打开 app\MuseDesktop.exe。
+2. 点击“添加账号”，输入本地备注，在右侧 Muse 官方网页自行登录。
+3. 点击左侧账号文字手动切换。一次只使用一个账号网页。
+4. 顶部可返回、刷新、打开 Muse 首页；太阳/月亮图标切换外观。
+5. “设置”可调整外观、网页缩放和账号。默认开启“切换账号时清理所有账号 24 小时前的网页磁盘缓存”；需要时可关闭。
+6. 关闭窗口即可退出。更新程序时不要删除 %LOCALAPPDATA%\MuseDesktop。
+
+账号备注和登录状态保存在 %LOCALAPPDATA%\MuseDesktop，不在程序文件夹。请勿分享该目录。删除账号会清理此客户端中的对应登录目录，不会删除 Muse 云端账号或对话。
+
+客户端不自动登录、不发送消息、不轮换账号。Muse 网页负责聊天、模型选择、云盘和记忆功能。若提示缺少 WebView2 Runtime，请从微软官网下载：https://developer.microsoft.com/microsoft-edge/webview2/
